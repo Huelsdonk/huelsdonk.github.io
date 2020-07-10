@@ -1,6 +1,8 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
+title: John's Blog
 ---
+<div class="blurb">
+<h1>Hi there, I'm John</h1>
+<p>John leverages their ninja coding knowledge to ideate about the tech ecosystem<a href="/about">Read more about me...</a></p>
+</div>

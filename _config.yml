@@ -27,9 +27,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Huelsdonk
 
 # Build settings
-theme: jekyll-theme-slate
+
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
