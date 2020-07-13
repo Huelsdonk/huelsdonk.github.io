@@ -1,29 +1,40 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/style.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:huntsperger@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/huelsdonk">github.com/huelsdonk</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<html>
+
+<head>
+	<title>{{ page.title }}</title>
+	<!-- link to main stylesheet -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+
+<body>
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+		  <h1 class="display-4">Hi There, I'm John</h1>
+		  <p class="lead">John leverages ninja coding knowledge to ideate about the tech ecosystem.</p>
+		
+		<nav>
+			<ul>
+				<li><a href="/">Blog</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/blog">Posts</a></li>
+			</ul>
+		</nav>
+	  </div>
+	</div>
+	
+	<div class="container">
+		{{ content }}
+	</div>
+	<!-- /.container -->
+	<footer>
+		<ul>
+			<li><a href="mailto:huntsperger@gmail.com">email</a></li>
+			<li><a href="https://github.com/huelsdonk">github.com/huelsdonk</a></li>
+		</ul>
+	</footer>
+</body>
+
+</html>
