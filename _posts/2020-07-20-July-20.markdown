@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "July 20th"
+date:   2020-07-10 12:25:31 -0700
+---
+
+I'm going to try to get this thing styled up a little and then start adding some docs on projects that I've been working on...
