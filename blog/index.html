@@ -3,7 +3,7 @@ layout: default
 title: John's Blog
 ---
 	
-	<ul class="list-group list-group-flush">
+	<ul class="list-group list-group-flush posts">
 	  {% for post in site.posts %}
 	    <li class="list-group-item"><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
