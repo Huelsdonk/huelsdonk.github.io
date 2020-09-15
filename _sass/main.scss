@@ -24,13 +24,17 @@ footer ul li {
 }
 
 a {
-    color: rgb(126, 126, 126);
+    color: rgb(119, 11, 227);
 }
+
 footer a {
     text-decoration: none;
     color: whitesmoke;
 }
 
+nav a {
+    color: black;
+}
 
 a:hover {
     text-decoration: underline;
@@ -39,7 +43,7 @@ a:hover {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 
 ul.posts li {
@@ -49,4 +53,15 @@ ul.posts li {
 .jumbotron {
     background: url("/assets/redtrees.jpg");
     background-size: 90%;
+}
+
+pre.highlight {
+    background: rgb(228, 228, 228) !important;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.list-group-item {
+    border: none !important;
 }

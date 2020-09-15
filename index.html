@@ -2,14 +2,14 @@
 layout: default
 title: John's Blog
 ---
-<ul class="list-group list-group-flush posts">
-{% for post in site.posts %}
-<li class="list-group-item">
-  <span>{{ post.date | date_to_string }}</span> »
-  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-  <div class="content">
-      {{post.content}}
-  </div>
-</li>
-{% endfor %}
+<ul class="list-group list-group-flush border-0 posts">
+  {% for post in site.posts %}
+  <li class="list-group-item">
+    <h2>
+      <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    </h2>
+      <h4>{{ post.date | date: "%B %-d, %Y" }}</h4>
+    <div class="content">{{post.content}}</div>
+  </li>
+  {% endfor %}
 </ul>
